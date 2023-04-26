@@ -1,0 +1,14 @@
+digraph genealogy {
+    graph [charset="utf-8"];
+    node [shape=plaintext];
+    edge [style=bold];
+
+    50346 [label="Carl  Burch \nCarnegie Mellon University (2000)"];
+    33035 [label="Avrim Louis Blum \nMassachusetts Institute of Technology (1991)"];
+    50081 [label="Ronald Linn Rivest \nStanford University (1974)"];
+    69223 [label="Robert W Floyd \nThe University of Chicago (1953)"];
+
+    33035 -> 50346;
+    50081 -> 33035;
+    69223 -> 50081;
+}
